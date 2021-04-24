@@ -5,14 +5,17 @@ body{
 h1{
     color: blanchedalmond;
 }
+h3{
+    color: rgb(248, 152, 7);
+    background: rgb(122, 126, 118);
+    font-size: 50px;
+    text-align: center;
+    border: crimson solid;
+    width: auto;
+}
 
 img{
     width: 500px;
     height: auto;
     
-}
-
-h3{
-    color: blanchedalmond;
-    background: chartreuse;
 }
