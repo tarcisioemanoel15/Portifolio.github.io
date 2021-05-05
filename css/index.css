@@ -99,5 +99,9 @@ img {
   margin-left: 10px;
   font-size: 10px;
   margin: 0;
-  }      
-}
+  } 
+  
+  .fotos{
+    display: contents;
+  }
+  .fotos img{}
