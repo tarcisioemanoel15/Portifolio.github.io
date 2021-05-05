@@ -65,6 +65,17 @@ img {
  color: white;
  padding: 20px;
 }
+
+.fotos{
+  display: flex;
+  justify-content: space-around;
+  background: black;
+}
+.fotos  img{
+  width: 400px;
+  height: 700px;
+  padding: 20px;
+}
  
 
 
