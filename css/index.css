@@ -57,7 +57,7 @@ img {
  display: flex;
  flex-direction: column;
  align-items: center;
- background-image: url(/tarcisioemanoel15.github.io/img/Esmeraldas/Jpg\ \(10\).jpg);
+ background-image: url('../img/Esmeraldas/es.jpg');
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
