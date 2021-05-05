@@ -104,6 +104,7 @@ img {
   
   .fotos{
     display: grid;
+    background-image: url('../img/Esmeraldas/fundo.png');
     
     background: rgb(53, 50, 50);
     
