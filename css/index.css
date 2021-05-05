@@ -87,7 +87,7 @@ img {
 
 
 
-@media screen and (max-width: 780px ){
+@media screen and (max-width: 870px ){
   .header {
   display: flexbox;
   justify-content: center;
@@ -102,12 +102,13 @@ img {
   } 
     
   .fotos{
-    display: grid;
+    display: flex;
+    justify-content: space-around;
     background-image: url('../img/Esmeraldas/fundo.png');
-    
     background: rgb(71, 51, 51);
     
   }
+    
   .fotos img{
     
     width: 200px;
