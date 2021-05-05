@@ -100,8 +100,16 @@ img {
   font-size: 10px;
   margin: 0;
   } 
+  /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
   
   .fotos{
-    display: contents;
+    display: grid;
+    
+    background: rgb(53, 50, 50);
+    
   }
-  .fotos img{}
+  .fotos img{
+    
+    width: 300ox;
+    height: 550ppx;
+  }
