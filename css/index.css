@@ -1,7 +1,4 @@
-body,
-ul,
-li,
-p {
+body, ul, li, p{
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -43,9 +40,8 @@ img {
 
 .menu {
   display: flex;
-  
 }
-
+  
 .menu li {
   margin-left: 10px;
 }
@@ -54,43 +50,43 @@ img {
   display: block;
   padding: 10px;
 }
+/*################################################################*/
+/*h1 e fundo*/
+
+.fundo{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-image: url(/tarcisioemanoel15.github.io/img/Esmeraldas/Jpg\ \(10\).jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ text-align: center;
+ color: white;
+ padding: 20px;
+}
+ 
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 730px ){
-    .header {
-    display: flexbox;
-    justify-content: center;
-    flex-direction: unset;
-    align-items: center;
-    background-color: #191970;
-    
+  .header {
+  display: flexbox;
+  justify-content: center;
+  flex-direction: unset;
+  align-items: center;
+  background-color: #022f14;
 }
-/*
-.header > a{
-    display: flex;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 800;
-    font-size: 30px;
-    
-    font-family: Yellowtail, serif;
-}
-  */    
-
-  ul .menu {
-        
-    
-    }    
-    .menu li{
-        margin-left: 10px;
-        font-size: 10px;
-        margin: 0;
-    }      
-        
-    
-    .menu li a {
-        
-       
-      }
-      
+.menu li{
+  margin-left: 10px;
+  font-size: 10px;
+  margin: 0;
+  }      
 }
