@@ -16,7 +16,10 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(245, 244, 244);
+  width: auto;
+  height: auto;
+  margin-top: auto;
 }
 
 h1 {
