@@ -124,21 +124,29 @@ img {
   }
     
   .fotos img{
-    
     width: 320px;
     height: 520px;
   }
-    
 }
+    
+    
 
 @media screen and (max-width: 380px ){
   
+
+
+
   .fotos{
     display: grid;
-    background-image: url('../img/Esmeraldas/fundo.png');
-    
+    grid-column: auto;
+    background-image: url('../img/Esmeraldas/esmeraldaFF.png');
     background: rgb(243, 5, 5);
-  
-
-}
+  }
+    
+  .fotos img{
+    width: 300px;
+    height: 430px;
+  }
+    
+    
 }
