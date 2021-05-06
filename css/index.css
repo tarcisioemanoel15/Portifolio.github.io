@@ -111,8 +111,8 @@ img {
     
   .fotos img{
     
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 430px;
   }
 }
 
@@ -121,8 +121,14 @@ img {
     display: grid;
     background-image: url('../img/Esmeraldas/fundo.png');
     background: rgb(245, 16, 131);
+  }
     
-
+  .fotos img{
+    
+    width: 320px;
+    height: 520px;
+  }
+    
 }
 
 @media screen and (max-width: 380px ){
