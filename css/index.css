@@ -30,7 +30,7 @@ img {
 }
 
 .header {
-  background: #1d1e20;
+  background: #000000;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -69,7 +69,7 @@ img {
 .fotos{
   display: flex;
   justify-content: space-around;
-  background: black;
+  background: rgb(19, 18, 18);
 }
 .fotos  img{
   width: 400px;
@@ -89,7 +89,7 @@ img {
 
 @media screen and (max-width: 870px ){
   .header {
-  display: flexbox;
+  display: flex;
   justify-content: center;
   flex-direction: unset;
   align-items: center;
@@ -119,8 +119,9 @@ img {
 @media screen and (max-width: 670px ){
   .fotos{
     display: grid;
+    grid-column: auto;
     background-image: url('../img/Esmeraldas/fundo.png');
-    background: rgb(245, 16, 131);
+    background: rgb(54, 49, 51);
   }
     
   .fotos img{
@@ -132,21 +133,21 @@ img {
     
 
 @media screen and (max-width: 380px ){
-  
-
-
-
   .fotos{
     display: grid;
     grid-column: auto;
     background-image: url('../img/Esmeraldas/esmeraldaFF.png');
-    background: rgb(243, 5, 5);
+    background: rgb(68, 55, 55);
   }
-    
   .fotos img{
     width: 200px;
     height: 330px;
   }
-    
-    
 }
+  
+
+
+
+    
+    
+    
