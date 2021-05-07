@@ -79,7 +79,7 @@ img {
 /*-__________________________________________________________________________________________________________-*/
  
 /*Videos*/
-.videos{
+.imgs{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
@@ -87,18 +87,18 @@ img {
   max-width: 800px;
   padding: 10px;
 }
-.video-item:nth-child(1) {
+.img-item:nth-child(1) {
   grid-row: 1 / 3;
 }
-.video-item {
+.img-item {
   display: grid;
 }
-.video-item img {
+.img-item img {
   grid-column: 1;
   grid-row: 1/3;
   align-self: end;
 }
-.video-item p {
+.img-item p {
   background: rgba(0, 0, 0, 0.6);
   padding: 10px;
   color: white;
@@ -166,7 +166,7 @@ img {
   }
   .fotos img{
     width: 250px;
-    height: 500px;
+    height: 400px;
   }
 }
   
