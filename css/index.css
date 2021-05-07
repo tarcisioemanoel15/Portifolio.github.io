@@ -107,39 +107,24 @@ img {
   align-self: end;
 }
 
-
-
-
-
-
 /*videos*/
 .videos{
   display: grid;
   justify-content: center;
- 
 }
-
 .videos video{
   width: 500px;
   height: 300px;
 }
 
 /*outros links*/
-
 .navv{
-  background: yellow;
+  background: rgb(61, 61, 5);
 }
-
-
-
-
 footer{
   background: rgb(255, 255, 255);
   margin: 50px auto;
-  /*width: 157px;*/
- /* height: 150px;*/
 }
-  
 .cent{
   display: flex;
   justify-content: center;
@@ -153,13 +138,15 @@ footer{
   transition: all 0.5s ease-out; /* efeito de animaÃ§ÃĢo*/
   /*border-radius: 50%;  */
 }
- /* 
+
+/* 
 .red#facebook{background-color: #fafafc;}
 .red#github{background-color: #fbfdfd;}
 .red#instagram{background-color: #f7f6f6;}
 .red#youtube{background-color: rgb(247, 246, 246);}
 .red#watsap{background: rgb(248, 248, 246);}
 */
+
 .icone{
     margin: 0px auto;
     padding: 35px;
@@ -195,6 +182,14 @@ footer{
 
 
 
+
+
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*#################  MIDA QUERI  #################################*/
+
 @media screen and (max-width: 870px ){
   .header {
     display: flex;
@@ -203,6 +198,7 @@ footer{
     align-items: center;
     background-color: #022f14;
   }
+
   .menu li{
     margin-left: 10px;
     font-size: 10px;
@@ -224,20 +220,19 @@ footer{
   }
   .videos{
     display: grid;
-    
   }
+    
   .videos video{
     width: 400px;
     height: 200px;
+  }
 }
-
-
+    
     
   
 
   
   
-
 
 @media screen and (max-width: 670px ){
   .fotos{
@@ -246,29 +241,30 @@ footer{
     background-image: url('../img/Esmeraldas/fundo.png');
     background: rgb(203, 238, 5);
   }
-    
+
   .fotos img{
     width: 345px;
     height: 545px;
   }
-
   .red{
-    
     width: 30px;
     height: 30px;
     margin: 9px;
+  }
+  
+  .icone{
+    padding: 7px;
+  }
+
+  .red:hover{
+    /* cursor: pointer;*/
+    transform: translateY(-30px);
+  }
+  .videos video{
+    width: 250px;
+    height: 150px;
+  }   
 }
-.icone{
-  padding: 7px;
-}
-.red:hover{
- /* cursor: pointer;*/
-  transform: translateY(-30px);
-}
-.videos video{
-  width: 250px;
-  height: 150px;
-}   
     
 
 @media screen and (max-width: 380px ){
