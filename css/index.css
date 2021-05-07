@@ -112,32 +112,6 @@ img {
 
 
 
-@media screen and (max-width: 870px ){
-  .header {
-  display: flex;
-  justify-content: center;
-  flex-direction: unset;
-  align-items: center;
-  background-color: #022f14;
-}
-.menu li{
-  margin-left: 10px;
-  font-size: 10px;
-  margin: 0;
-  } 
-    
-  .fotos{
-    display: flex;
-    justify-content: space-around;
-    background-image: url('../img/Esmeraldas/fundo.png');
-    background: rgb(71, 51, 51);
-  }
-  .fotos img{
-    width: 300px;
-    height: 430px;
-  }
-}
-
 /*videos*/
 .videos{
   background: #000000;
@@ -155,41 +129,31 @@ img {
 
 footer{
   background: rgb(255, 255, 255);
-  
-    margin: 50px auto;
-    width: 1157px;
-    height: 150px;
+  margin: 50px auto;
+  /*width: 157px;*/
+ /* height: 150px;*/
 }
+  
 .cent{
   display: flex;
   justify-content: center;
   background: black;
 }
 .red{
-  
-    width: 70px;
-    height: 70px;
-    float: left;
-    margin: 20px;
-   transition: all 0.4s ease-out; /* efeito de animaÃ§ÃĢo*/
-    /*border-radius: 50%;  */
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 20px;
+  transition: all 0.5s ease-out; /* efeito de animaÃ§ÃĢo*/
+  /*border-radius: 50%;  */
 }
-.red#facebook{
-    /*background-color: #fafafc;*/
-}
-.red#github{
-    /*background-color: #fbfdfd;*/
-}
-.red#instagram{
-    /*background-color: #f7f6f6;*/
-}
-
-.red#youtube{
-    /*background-color: rgb(247, 246, 246);*/
-}
-.red#watsap{
- /* background: rgb(248, 248, 246);*/
-}
+ /* 
+.red#facebook{background-color: #fafafc;}
+.red#github{background-color: #fbfdfd;}
+.red#instagram{background-color: #f7f6f6;}
+.red#youtube{background-color: rgb(247, 246, 246);}
+.red#watsap{background: rgb(248, 248, 246);}
+*/
 .icone{
     margin: 0px auto;
     padding: 35px;
@@ -197,23 +161,94 @@ footer{
 }
     
 /* Para dar movimento aos icones*/
-
 .red:hover{
-    cursor: pointer;
-    transform: translateY(-20px);
-    /*box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45); */
+  cursor: pointer;
+  transform: translateY(-20px);
+  /*box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45); */
+}
+
+.voltar{
+  display: flex;
+  justify-content:center;
+  color: #022f14;
+}   
+
+
+    
+
+    
+
+
+ @media screen and (max-width: 870px ){
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: unset;
+    align-items: center;
+    background-color: #022f14;
+  }
+  .menu li{
+    margin-left: 10px;
+    font-size: 10px;
+    margin: 0;
+    } 
+      
+    .fotos{
+      display: flex;
+      justify-content: space-around;
+      background-image: url('../img/Esmeraldas/fundo.png');
+      background: rgb(71, 51, 51);
+    }
+    .fotos img{
+      width: 300px;
+      height: 430px;
+    }
+  }
+    
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 870px ){
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: unset;
+    align-items: center;
+    background-color: #022f14;
+  }
+  .menu li{
+    margin-left: 10px;
+    font-size: 10px;
+    margin: 0;
+  } 
+  .fotos{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../img/Esmeraldas/fundo.png');
+    background: rgb(71, 51, 51);
+  }
+  .fotos img{
+    width: 300px;
+    height: 430px;
+  }
+  .red{
+    width: 70px;
+    height: 70px;
+  }
 }
 
 
     
- .voltar{
-   display: flex;
-   justify-content:center;
-   color: #022f14;
+  
 
- }   
-    
-
+  
+  
 
 
 @media screen and (max-width: 670px ){
@@ -228,8 +263,21 @@ footer{
     width: 345px;
     height: 545px;
   }
-}
+
+  .red{
     
+    width: 30px;
+    height: 30px;
+    margin: 9px;
+}
+.icone{
+  padding: 7px;
+}
+.red:hover{
+ /* cursor: pointer;*/
+  transform: translateY(-30px);
+}
+}   
     
 
 @media screen and (max-width: 380px ){
@@ -242,6 +290,9 @@ footer{
   .fotos img{
     width: 250px;
     height: 400px;
+  }
+  .red{
+    margin: 5px;
   }
 }
   
