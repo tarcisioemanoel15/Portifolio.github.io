@@ -121,12 +121,12 @@ img {
     display: grid;
     grid-column: auto;
     background-image: url('../img/Esmeraldas/fundo.png');
-    background: rgb(54, 49, 51);
+    background: rgb(203, 238, 5);
   }
     
   .fotos img{
-    width: 320px;
-    height: 520px;
+    width: 345px;
+    height: 545px;
   }
 }
     
@@ -137,11 +137,11 @@ img {
     display: grid;
     grid-column: auto;
     background-image: url('../img/Esmeraldas/esmeraldaFF.png');
-    background: rgb(68, 55, 55);
+    background: rgb(247, 5, 5);
   }
   .fotos img{
-    width: 300px;
-    height: 430px;
+    width: 320px;
+    height: 450px;
   }
 }
   
