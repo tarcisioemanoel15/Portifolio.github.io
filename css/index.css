@@ -137,9 +137,84 @@ img {
     height: 430px;
   }
 }
+
+/*videos*/
+.videos{
+  background: #000000;
+}
+
+
+/*outros links*/
+
+nav, .nav{
+  background: yellow;
+}
+
+
+
+
+footer{
+  background: rgb(3, 250, 3);
+  
+    margin: 50px auto;
+    width: 1157px;
+    height: 150px;
+}
+.cent{
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+.red{
+  
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 20px;
+   transition: all 0.4s ease-out; /* efeito de animaÃ§ÃĢo*/
+    /*border-radius: 50%;  */
+}
+.red#facebook{
+    /*background-color: #fafafc;*/
+}
+.red#github{
+    /*background-color: #fbfdfd;*/
+}
+.red#instagram{
+    /*background-color: #f7f6f6;*/
+}
+
+.red#youtube{
+    /*background-color: rgb(247, 246, 246);*/
+}
+.red#watsap{
+ /* background: rgb(248, 248, 246);*/
+}
+.icone{
+    margin: 0px auto;
+    padding: 35px;
+    width: 80px;
+}
     
+/* Para dar movimento aos icones*/
+
+.red:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    /*box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45); */
+}
+
+
     
+ .voltar{
+   display: flex;
+   justify-content:center;
+   color: #022f14;
+
+ }   
     
+
+
 
 @media screen and (max-width: 670px ){
   .fotos{
