@@ -226,6 +226,9 @@ footer{
     display: grid;
     
   }
+  .videos video{
+    width: 400px;
+    height: 200px;
 }
 
 
@@ -262,6 +265,9 @@ footer{
  /* cursor: pointer;*/
   transform: translateY(-30px);
 }
+.videos video{
+  width: 250px;
+  height: 150px;
 }   
     
 
