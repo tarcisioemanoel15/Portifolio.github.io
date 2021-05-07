@@ -78,7 +78,7 @@ img {
 }
 /*-__________________________________________________________________________________________________________-*/
  
-/*Videos*/
+/*FOTOS2*/
 .imgs{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -114,10 +114,11 @@ img {
 
 /*videos*/
 .videos{
-  display: flex;
+  display: grid;
   justify-content: center;
-  background: #000000;
+ 
 }
+
 .videos video{
   width: 500px;
   height: 300px;
