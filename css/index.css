@@ -11,6 +11,7 @@ body {
   font-family: Nunito, sans-serif;
 }
 
+
 a {
   text-decoration: none;
   color: rgb(245, 244, 244);
@@ -138,15 +139,6 @@ footer{
   transition: all 0.5s ease-out; /* efeito de animaÃ§ÃĢo*/
   /*border-radius: 50%;  */
 }
-
-/* 
-.red#facebook{background-color: #fafafc;}
-.red#github{background-color: #fbfdfd;}
-.red#instagram{background-color: #f7f6f6;}
-.red#youtube{background-color: rgb(247, 246, 246);}
-.red#watsap{background: rgb(248, 248, 246);}
-*/
-
 .icone{
     margin: 0px auto;
     padding: 35px;
@@ -165,7 +157,9 @@ footer{
   justify-content:center;
   color: #022f14;
 }   
-
+.header #rel{
+  color:aliceblue
+}
 
     
 
