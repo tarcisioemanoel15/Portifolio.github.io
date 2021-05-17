@@ -1,3 +1,12 @@
+:root{
+  --corDeFundo:#080808;
+}
+
+
+.fo{
+  background: rgba(172, 255, 47, 0.322);
+}
+
 body, ul, li, p{
   margin: 0px;
   padding: 0px;
@@ -31,7 +40,7 @@ img {
 }
 
 .header {
-  background: #000000;
+  background: var(--corDeFundo);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -70,7 +79,7 @@ img {
 .fotos{
   display: flex;
   justify-content: space-around;
-  background: rgb(19, 18, 18);
+  background: var(--corDeFundo);
 }
 .fotos  img{
   width: 400px;
@@ -120,7 +129,7 @@ img {
 
 /*outros links*/
 .navv{
-  background: rgb(61, 61, 5);
+  background: var(--corDeFundo);
 }
 footer{
   background: rgb(255, 255, 255);
@@ -129,7 +138,7 @@ footer{
 .cent{
   display: flex;
   justify-content: center;
-  background: black;
+  background: var(--corDeFundo);
 }
 .red{
   width: 70px;
@@ -190,7 +199,7 @@ footer{
     justify-content: center;
     flex-direction: unset;
     align-items: center;
-    background-color: #022f14;
+    background-color: var(--corDeFundo);
   }
 
   .menu li{
@@ -202,7 +211,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-image: url('../img/Esmeraldas/fundo.png');
-    background: rgb(71, 51, 51);
+    background: var(--corDeFundo);
   }
   .fotos img{
     width: 300px;
@@ -233,7 +242,7 @@ footer{
     display: grid;
     grid-column: auto;
     background-image: url('../img/Esmeraldas/fundo.png');
-    background: rgb(203, 238, 5);
+    background: var(--corDeFundo);
   }
 
   .fotos img{
@@ -266,7 +275,7 @@ footer{
     display: grid;
     grid-column: auto;
     background-image: url('../img/Esmeraldas/esmeraldaFF.png');
-    background: rgb(247, 5, 5);
+    background: var(--corDeFundo);
   }
   .fotos img{
     width: 250px;
