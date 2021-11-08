@@ -1,0 +1,26 @@
+{
+  "name": "tarcisioemanoel15.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "core-js": "^3.19.1",
+    "css-loader": "^6.5.1",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.1"
+  }
+}
