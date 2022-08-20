@@ -1,5 +1,5 @@
 #title {
-  animation: titulo infinite 1000ms linear;
+  animation: titulo infinite 10s alternate;
 }
 
 @keyframes titulo {
@@ -9,5 +9,6 @@
 
   to {
     color: #e8f1f2;
+
   }
 }

@@ -1,3 +1,54 @@
 body {
-  background-color: rgb(73, 70, 70);
+  margin: 0;
+  padding: 0;
+}
+
+.formulario {
+  text-align: center;
+  background-color: #e8f1f2;
+  margin: 25px;
+  box-shadow: 0px 0px 5px #006494;
+  border-radius: 30px 0px 30px 0px;
+}
+
+.formulario h1 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.caixa_form {
+  padding: 20px;
+  display: grid;
+}
+
+input {
+  width: 80%;
+  height: 25px;
+  justify-self: center;
+  border-radius: 20px;
+
+  text-align: center;
+  border: none;
+  box-shadow: 0px 0px 1px #1b98e0;
+}
+
+.text_sexo {
+  color: #247ba0;
+  padding-bottom: 10px;
+}
+
+input[type="button"] {
+  background-color: #1b98e0;
+  width: 40%;
+}
+
+
+input[type="number"] {
+  width: 40%;
+}
+
+
+.sexo input {
+  box-shadow: none;
+
 }
