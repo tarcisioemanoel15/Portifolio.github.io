@@ -1,0 +1,13 @@
+#title {
+  animation: titulo infinite 1000ms linear;
+}
+
+@keyframes titulo {
+  from {
+    color: #1b98e0;
+  }
+
+  to {
+    color: #e8f1f2;
+  }
+}
