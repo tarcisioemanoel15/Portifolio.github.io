@@ -1,17 +1,20 @@
 body {
+  font-family: woff2;
   margin: 0;
   padding: 0;
 }
+
 
 .formulario {
   text-align: center;
   background-color: #e8f1f2;
   margin: 25px;
   box-shadow: 0px 0px 5px #006494;
-  border-radius: 30px 0px 30px 0px;
+  border-radius: 100px 0px 100px 0px;
 }
 
 .formulario h1 {
+  font-family: woff;
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -37,9 +40,16 @@ input {
   padding-bottom: 10px;
 }
 
-input[type="button"] {
-  background-color: #1b98e0;
+button.btn {
   width: 40%;
+  height: 25px;
+  justify-self: center;
+  border-radius: 20px;
+
+  text-align: center;
+  border: none;
+  box-shadow: 0px 0px 1px #1b98e0;
+  background-color: #1b98e0;
 }
 
 
@@ -51,4 +61,14 @@ input[type="number"] {
 .sexo input {
   box-shadow: none;
 
+}
+
+@font-face {
+  font-family: woff;
+  src: url("../../components/fonts/poppins-black-webfont.woff");
+}
+
+@font-face {
+  font-family: woff2;
+  src: url("../../components/fonts/poppins-light-webfont.woff2");
 }
