@@ -17,26 +17,27 @@
 
 
   <div class="formulario">
-
     <h1>Formulário</h1>
 
-    <form action="#">
+
+
+    <form id="formulario" action="#">
 
       <div class="caixa_form">
         <label for="nome">Nome</label>
-        <input type="text">
+        <input type="text" class="validar">
       </div>
 
 
 
       <div class="caixa_form">
         <label for="sobre_nome">Sobre nome</label>
-        <input type="text">
+        <input type="text" class="validar">
       </div>
 
       <div class="caixa_form">
         <label for="cidade">Cidade</label>
-        <input type="text">
+        <input type="text" class="validar">
       </div>
 
 
@@ -51,14 +52,19 @@
       <div class="caixa_form">
         <label for="idade">idade</label>
         <!-- min="18" max="80"  -->
-        <input class="idade" type="number" step="any">
+        <input class="idade validar" type="number" step="any">
       </div>
+
+
+
+
+
 
       <div class="caixa_form sexo">
         <label for="sexo" class="text_sexo">Sexo</label>
 
-        Masculino <input type="checkbox" class="checkboxM chec">
-        Feminino <input type="checkbox" class="checkboxF chec">
+        Masculino <input type="checkbox">
+        Feminino <input type="checkbox">
 
       </div>
 
@@ -67,19 +73,23 @@
 
       <div class="caixa_form">
         <label for="iser">User</label>
-        <input type="text">
+        <input type="text" class="usuario validar">
       </div>
 
       <div class="caixa_form">
         <label for="email">E_mail</label>
-        <input type="email">
+        <input type="email" class="validar">
       </div>
 
       <div class="caixa_form">
         <label for="password">Senha</label>
-        <input type="password">
+        <input type="password" class="senha validar">
       </div>
 
+      <div class="caixa_form">
+        <label for="password">Repetir Senha</label>
+        <input type="password" class="repetir-senha validar">
+      </div>
 
       <div class="caixa_form">
         <button type="submit" class="btn">Enviar</button>
