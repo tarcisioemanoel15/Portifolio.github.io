@@ -15,31 +15,19 @@ class ValidaFormulario {
     const camposValidos = this.camposSaoValidos();
     const senhasValidos = this.senhasSaoValidos();
     const campoUser = this.campousuario();
+    const idade = this.campoIdade();
 
-    if (camposValidos && senhasValidos && campoUser) {
+
+    if (camposValidos && senhasValidos && campoUser && idade) {
       alert('formulario enviado')
       this.formulario.submit();
     }
 
   }
 
-
-
-
-
-
-
-
-
-
-
-
   camposSaoValidos() {
-    /*
-    return true
-    */
-    let valid = true;
 
+    let valid = true;
     for (let errortext of this.formulario.querySelectorAll(".errorText")) { errortext.remove(); }
 
     for (let campo of this.formulario.querySelectorAll('.validar')) {
@@ -49,25 +37,10 @@ class ValidaFormulario {
         this.errorText(campo, `campo ${label} não pode estar vazio`);
       }
 
-      // if(campo.classList.contains('cpf')){
-      //   this.validacpf(campo);
-      // }
-
-      // if (campo.classList.contains('usuario')) {
-      //   this.campousuario(campo);
-      // }
-
-
-      // if (campo.classList.contains('idade')) {
-      //   this.campoIdade(campo);
-      // }
     }
-    console.log(valid, 'campo')
+
     return valid;
   }
-
-
-
 
 
   // Campo usuario
@@ -75,7 +48,6 @@ class ValidaFormulario {
     const campo = document.querySelector('.usuario');
 
     let valid = true
-
     let usuario = campo.value;
 
     if (usuario === '') {
@@ -90,14 +62,8 @@ class ValidaFormulario {
         valid = false;
       }
     }
-    console.log("usuariooooooooo", valid)
     return valid;
   }
-
-
-
-
-
 
   senhasSaoValidos() {
     let valid = true;
@@ -116,36 +82,8 @@ class ValidaFormulario {
       this.errorText(senha, 'campo senha INVALIDO')
       this.errorText(repetirSenha, 'campo repetir senha tem que ser igual a senha')
     }
-    console.log(valid)
     return valid;
   }
-
-
-
-
-
-
-
-  // Validando CPF
-
-  // validacpf(campo){
-  //   const valida = new Validacpf(campo.value)
-  //   if(!valida.valida()){
-  //     this.errorText(campo, 'CPF Invalido');
-  //     return false;
-  //   }
-  //   return true;
-  // }
-
-
-
-
-
-
-
-
-
-
 
   campoIdade(campo) {
     let valid = true
@@ -166,54 +104,10 @@ class ValidaFormulario {
         this.errorText(campo, "tá de brincadeira")
       }
     }
-    console.log(valid)
     return valid;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // mensagens e error
   errorText(campo, msg) {
     const div = document.createElement('div');
     div.innerHTML = msg;
