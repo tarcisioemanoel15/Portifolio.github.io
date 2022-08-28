@@ -57,14 +57,65 @@ aside {
 
 
 
-
-
-
-
-#title {
-    flex-direction: column;
-    line-height: 10px;
+/* imagems logo */
+.movDlogo img {
+    width: 50px;
 }
+
+.movDlogo {
+    position: relative;
+}
+
+
+.img1 {
+    left: 0px;
+    position: absolute;
+
+    animation: anima infinite 2s alternate;
+}
+
+.img2 {
+    left: 35px;
+    position: absolute;
+}
+
+.img3 {
+    left: 69px;
+    position: absolute;
+
+    animation: anima2 infinite 2s alternate;
+
+}
+
+
+@keyframes anima {
+    form {
+        left: 0px;
+
+    }
+
+    to {
+        left: 69px;
+
+    }
+}
+
+@keyframes anima2 {
+    form {
+        left: 69px;
+
+    }
+
+    to {
+        left: 0px;
+    }
+
+}
+
+/* fim imagems logo */
+
+
+
 
 li {
     display: inline-block;
