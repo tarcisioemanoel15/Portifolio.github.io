@@ -16,6 +16,51 @@ header {
     align-items: center;
 }
 
+aside {
+    margin-top: -70px;
+}
+
+/* texto sendo digitado automaitco */
+.typedtext {
+    font-size: 46px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+
+
+    margin-top: 20%;
+    /* border-right: 2px solid rgb(248, 248, 248); */
+    height: 40px;
+    margin-bottom: 55px;
+    color: #1b90e0;
+    display: block;
+    /* focus */
+    /* animation: blinkTextCursor 800ms steps(44) infinite normal; */
+}
+
+.content h2 {
+    margin-top: -40px;
+}
+
+/* 
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #1b90e0;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+} */
+
+/* fim texto sendo digitado automaitco */
+
+
+
+
+
+
+
+
 #title {
     flex-direction: column;
     line-height: 10px;
@@ -66,9 +111,10 @@ h2 {
     font-family: poppinsmedium;
 }
 
+/* 
 span {
     color: #1b90e0;
-}
+} */
 
 p {
     line-height: 20px;
