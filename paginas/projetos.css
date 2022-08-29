@@ -19,11 +19,25 @@ body {
 }
 
 /* não feito  */
+a {
+  text-decoration: none;
+}
+
 .move {
-  background-color: aqua;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
+  color: aqua;
+  width: 30px;
+
+  animation: seta infinite 2s alternate-reverse;
+}
+
+@keyframes seta {
+  from {
+    color: #0b1c2c
+  }
+
+  to {
+    color: rgb(248, 251, 251);
+  }
 }
 
 .container h1 {

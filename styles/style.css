@@ -1,12 +1,27 @@
 body {
-    /* background-image: url('../components/images/0.jpg'); */
+    margin: 0;
+    padding: 0;
+}
+
+.containerbody {
     background-image: linear-gradient(90deg, #13293d, #e8f1f2);
     background-size: cover;
     color: white;
     font-family: poppinsregular;
-    max-width: 1200px;
+    min-width: 96vw;
+    min-height: 100vh;
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px;
+}
+
+.containerbody ul li {
+    color: black;
+    text-shadow: 0px 0px 1px #1b90e0;
+}
+
+.containerbody ul li:hover {
+    color: #1b90e0;
+
 }
 
 header {
@@ -25,36 +40,16 @@ aside {
     font-size: 46px;
     line-height: 10px;
     font-family: poppinsmedium;
-
-
     margin-top: 20%;
-    /* border-right: 2px solid rgb(248, 248, 248); */
     height: 40px;
     margin-bottom: 55px;
     color: #1b90e0;
     display: block;
-    /* focus */
-    /* animation: blinkTextCursor 800ms steps(44) infinite normal; */
 }
 
 .content h2 {
     margin-top: -40px;
 }
-
-/* 
-@keyframes blinkTextCursor {
-    from {
-        border-right-color: #1b90e0;
-    }
-
-    to {
-        border-right-color: transparent;
-    }
-} */
-
-/* fim texto sendo digitado automaitco */
-
-
 
 
 /* imagems logo */
@@ -146,7 +141,6 @@ a:hover {
 #inscreva-se-btn:hover {
     background-color: #7e7e7d00;
     box-shadow: 0px 2px 5px rgb(21, 21, 21);
-    color: #1b90e0;
 }
 
 h1 {
@@ -195,4 +189,28 @@ img {
 .redeS button:hover {
     background-color: #1b90e0;
     box-shadow: 0px 0px 10px #13293d;
+}
+
+.rodaPe {
+    background-color: #13293d;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.rodaPe h6 {
+    font-family: poppinsmedium;
+    margin: 0;
+    padding: 0;
+}
+
+.rodaPe ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.rodaPe img {
+    width: 20px;
 }
