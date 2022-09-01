@@ -1,13 +1,32 @@
 @media screen and (max-width: 1000px) {
-  img {
-    width: 400px;
+  .imgPrincipal img {
+    width: 370px;
+  }
+
+
+  .foto img {
+    margin: 100px 50px 0px 0px;
+  }
+
+  #sobremin h1 {
+    padding: 10px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  img {
+  .imgPrincipal img {
     width: 250px;
   }
+
+
+  .foto img {
+    margin: 115px 50px 0px 0px;
+  }
+
+  #sobremin h1 {
+    padding: 10px;
+  }
+
 }
 
 
@@ -15,6 +34,22 @@
   .typedtext {
     font-size: 30px;
   }
+
+  .imgPrincipal {
+    padding: 13px;
+  }
+
+  .foto img {
+    margin: 0px 50px 0px 0px;
+  }
+
+  #sobremin h1 {
+    padding: 10px;
+  }
+
+
+
+
 
 }
 
@@ -36,19 +71,13 @@
     font-size: 38px;
   }
 
-  form {
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  input {
-    align-self: center;
-  }
-
   /* img{display: none;} */
   ul {
     text-align: center;
   }
+
+
+
 }
 
 @media screen and (max-width: 430px) {
@@ -60,8 +89,6 @@
     font-size: 20px;
   }
 
-
-
   .rodaPe img {
     width: 25px;
   }
@@ -69,4 +96,6 @@
   .rodaPe h1 {
     font-size: 20px;
   }
+
+
 }

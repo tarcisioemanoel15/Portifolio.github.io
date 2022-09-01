@@ -8,10 +8,10 @@ body {
     background-size: cover;
     color: white;
     font-family: poppinsregular;
-    min-width: 96vw;
+    min-width: 100vw;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
 }
 
 .containerbody ul li {
@@ -55,6 +55,7 @@ aside {
 /* imagems logo */
 .movDlogo img {
     width: 50px;
+    margin: -37px;
 }
 
 
@@ -89,25 +90,23 @@ aside {
 @keyframes anima {
     form {
         left: 0px;
-
     }
+
 
     to {
         left: 69px;
-
     }
 }
+
 
 @keyframes anima2 {
     form {
         left: 69px;
-
     }
 
     to {
         left: 0px;
     }
-
 }
 
 /* fim imagems logo */
@@ -129,9 +128,9 @@ a {
 
 a:hover {
     color: #1b90e0;
-
     transition: 0.3s all;
 }
+
 
 #inscreva-se-btn {
     padding: 10px;
@@ -165,8 +164,8 @@ p {
     font-family: poppinslight;
 }
 
-img {
-    width: 500px;
+.imgPrincipal img {
+    width: 370px;
     border-radius: 50%;
 }
 
@@ -196,6 +195,7 @@ img {
     text-align: center;
     padding: 0;
     margin: 0;
+    width: 100vw;
 }
 
 
@@ -215,30 +215,17 @@ img {
     width: 20px;
 }
 
-
-
-
-
-
 /* pajina sobre min */
 #sobremin {
-    background-color: #0b0288;
+    background-color: #e8f1f2;
     min-width: 100vw;
     min-height: 100vh;
     margin: 0;
     margin-top: -21px;
-
+    color: #0b1c2c;
     text-align: center;
 
-
 }
-
-
-
-
-
-
-
 
 a {
     text-decoration: none;
@@ -269,9 +256,9 @@ a {
     font-family: poppinsregular, Arial, Helvetica, sans-serif;
     padding: 0px;
     font-size: 25px;
-    color: #0b0288;
+    color: #0b1c2c;
     text-shadow: 0px 0px 5px #e8f1f2;
-    margin: 0;
+    margin: 7px;
     padding-top: 0;
 }
 
@@ -284,28 +271,28 @@ a {
 
 }
 
-.sobre .foto img {
-    width: 400px;
-    padding: 10px;
+
+.foto img {
+    width: 100px;
+    margin: 70px 50px 0px 0px;
+    border-radius: 0px 0px 0px 50px;
 }
 
 .sobre .conteudo p {
-    border: solid #e8f1f2 2px;
-    border-radius: 10px;
     padding: 10px;
     width: 400px;
 }
 
 .sobre .conteudo h2 {
-    color: #e8f1f2;
+    color: #0b1c2c;
     font-family: poppinsregular;
 }
 
 @media screen and (max-width: 1000px) {
-    .sobre .foto img {
+    /* .foto img {
         width: 350px;
         margin-top: 50px;
-    }
+    } */
 
     .sobre .conteudo p {
         width: 350px;
@@ -313,9 +300,9 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-    .sobre .foto img {
+    /* .foto img {
         width: 250px;
-    }
+    } */
 
     .sobre .conteudo p {
         width: 250px;
