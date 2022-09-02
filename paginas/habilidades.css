@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 .containerHabilidades {
@@ -9,29 +10,19 @@
   min-width: 100vw;
   min-height: 100vh;
 
-  display: flex;
-
-
-  text-align: center;
-  justify-self: center;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
 }
-
-
-
 
 a {
   text-decoration: none;
 }
 
+/* 
 .move {
   color: aqua;
-  width: 30px;
-
   animation: seta infinite 2s alternate-reverse;
 }
+
+
 
 @keyframes seta {
   from {
@@ -45,8 +36,40 @@ a {
 
 .containerHabilidades h1 {
   font-family: poppinsregular, Arial, Helvetica, sans-serif;
-  padding: 30px;
-  font-size: 20px;
-  color: #0b0288;
   text-shadow: 0px 0px 5px #e8f1f2;
+} */
+
+
+/* INICIANDDO */
+img {
+  width: 20px;
+}
+
+
+.container {
+  display: block;
+
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box img {
+  width: 50px;
+}
+
+.box p {}
+
+.paragrafo {
+  color: aqua;
+}
+
+.paragrafo:hover {
+  display: none;
+  /* visibility: hidden; */
+  color: rgb(72, 0, 255);
+
 }
