@@ -108,6 +108,23 @@ a {
   cursor: pointer;
 }
 
+
+@media screen and (max-width: 800px) {
+
+  .containerHabilidades h1 {
+    padding: 17px;
+    padding-bottom: 20px;
+  }
+
+  .box p {
+    font-size: 13px;
+  }
+
+
+}
+
+
+
 @media screen and (max-width: 670px) {
 
   .containerHabilidades h1 {
