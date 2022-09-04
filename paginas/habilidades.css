@@ -110,10 +110,14 @@ a {
 
 
 @media screen and (max-width: 800px) {
-
   .containerHabilidades h1 {
     padding: 17px;
     padding-bottom: 20px;
+  }
+
+  .imgF img {
+    width: 15px;
+    padding: 5px;
   }
 
   .box p {
