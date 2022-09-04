@@ -7,7 +7,7 @@
 .containerHabilidades {
   background-color: #13293d;
   min-width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .containerHabilidades h1 {
