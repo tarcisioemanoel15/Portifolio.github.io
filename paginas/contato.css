@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  padding: 20px;
+}
+
+.containerContato {
+  background-color: #e8f1f2;
+  min-width: 100vw;
+  height: 100vh;
+  display: block;
+  text-align: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0b1c2c;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.move {
+  font-size: 25px;
+  padding: 20px;
+  position: absolute;
+  animation: seta infinite 2s alternate-reverse;
+}
+
+@keyframes seta {
+  from {
+    color: #0b1c2c
+  }
+
+  to {
+    color: rgb(248, 251, 251);
+  }
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  font-size: 20px;
+  color: #0b1c2c;
+  text-shadow: 0px 0px 5px #e8f1f2;
+}

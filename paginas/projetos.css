@@ -127,6 +127,13 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.imgSeta {
+  width: 25px;
+  padding: 20px;
+
+}
+
 @media (max-width: 1075px) {
   .box {
     grid-template-columns: repeat(3, 1fr);
