@@ -10,12 +10,6 @@
   height: 100vh;
 }
 
-.containerHabilidades h1 {
-  padding: 50px;
-  /* padding: 40px; */
-  /* padding-bottom: 93px; */
-}
-
 a {
   text-decoration: none;
 }
@@ -40,23 +34,16 @@ a {
   }
 }
 
-.containerHabilidades h1 {
-  font-family: poppinsregular, Arial, Helvetica, sans-serif;
-  text-shadow: 0px 0px 5px #e8f1f2;
-}
+.containerHabilidades h1 {}
 
-
-/* 
-.containerHabilidades {
-  text-align: center;
-} */
 
 .containerHabilidades h1 {
-  font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
   text-align: center;
   padding: 40px;
-  padding-bottom: 93px;
+  padding-bottom: 50px;
+  text-shadow: 0px 0px 5px #e8f1f2;
+  font-family: poppinsregular, Arial, Helvetica, sans-serif;
 }
 
 
