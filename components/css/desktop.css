@@ -1,0 +1,312 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1b90e0;
+  transition: 0.3s all;
+}
+
+.containerbody {
+  background-image: linear-gradient(90deg, #13293d, #e8f1f2);
+  background-size: cover;
+  color: white;
+  font-family: poppinsregular;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.containerbody ul li {
+  color: black;
+  text-shadow: 0px 0px 1px #1b90e0;
+}
+
+.containerbody ul li:hover {
+  color: #1b90e0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside {
+  margin-top: -70px;
+  padding-left: 37px;
+}
+
+/* texto sendo digitado automaitco */
+.typedtext {
+  font-size: 46px;
+  line-height: 10px;
+  font-family: poppinsmedium;
+  margin-top: 20%;
+  height: 40px;
+  margin-bottom: 55px;
+  color: #1b90e0;
+  display: block;
+}
+
+.content h2 {
+  margin-top: -40px;
+}
+
+
+/* imagems logo */
+.movDlogo img {
+  width: 50px;
+  margin: -37px;
+}
+
+.movDlogo {
+  margin: 45px;
+  padding: 10px;
+  position: relative;
+}
+
+.img1 {
+  left: 0px;
+  position: absolute;
+  animation: anima infinite 2s alternate;
+}
+
+.img2 {
+  left: 35px;
+  position: absolute;
+}
+
+.img3 {
+  left: 69px;
+  position: absolute;
+  animation: anima2 infinite 2s alternate;
+}
+
+@keyframes anima {
+  form {
+    left: 0px;
+  }
+
+  to {
+    left: 69px;
+  }
+}
+
+@keyframes anima2 {
+  form {
+    left: 69px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+/* fim imagems logo */
+
+#inscreva-se-btn {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+  background-color: #7e7e7d00;
+  box-shadow: 0px 2px 5px rgb(21, 21, 21);
+}
+
+/* 
+h1 {
+  font-weight: 200px;
+} */
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 10px;
+  font-family: poppinsmedium;
+}
+
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: poppinslight;
+}
+
+.imgPrincipal img {
+  width: 370px;
+  border-radius: 50%;
+}
+
+.redeS {
+  text-align: center;
+}
+
+.redeS img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.redeS button {
+  width: 70px;
+  border-radius: 10%;
+}
+
+.redeS button:hover {
+  background-color: #1b90e0;
+  box-shadow: 0px 0px 10px #13293d;
+}
+
+.rodaPe {
+  background-color: #13293d;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+
+.rodaPe h6 {
+  font-family: poppinsmedium;
+  margin: 0;
+  padding: 0;
+}
+
+.rodaPe ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.rodaPe img {
+  width: 20px;
+}
+
+/* pajina sobre min */
+#sobremin {
+  background-color: #e8f1f2;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  margin-top: -21px;
+  color: #0b1c2c;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.move {
+
+  width: 60px;
+  margin: 0px;
+  padding-top: 30px;
+  position: absolute;
+  animation: seta infinite 2s alternate-reverse;
+}
+
+@keyframes seta {
+  from {
+    color: #0b1c2c
+  }
+
+  to {
+    color: rgb(248, 251, 251);
+  }
+}
+
+#sobremin h1 {
+  font-family: poppinsregular, Arial, Helvetica, sans-serif;
+  padding: 0px;
+  font-size: 25px;
+  color: #0b1c2c;
+  text-shadow: 0px 0px 5px #e8f1f2;
+  margin: 7px;
+  padding-top: 0;
+}
+
+.sobre {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.foto img {
+  width: 100px;
+  margin: 70px 50px 0px 0px;
+  border-radius: 0px 0px 0px 50px;
+}
+
+.sobre .conteudo p {
+  padding: 10px;
+  width: 400px;
+}
+
+.sobre .conteudo h2 {
+  color: #0b1c2c;
+  font-family: poppinsregular;
+}
+
+/* screen and  */
+@media (max-width: 1000px) {
+  .sobre .conteudo p {
+    width: 250px;
+  }
+
+  .sobre .conteudo h2 {
+    font-size: 30px;
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  .imgPrincipal img {
+    width: 250px;
+  }
+
+
+  .foto img {
+    margin: 115px 50px 0px 0px;
+  }
+
+  #sobremin h1 {
+    padding: 10px;
+  }
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
