@@ -1,0 +1,12 @@
+main {
+  color: aliceblue;
+  background: black;
+}
+
+.tab {
+  display: block;
+}
+
+.desk {
+  display: none;
+}

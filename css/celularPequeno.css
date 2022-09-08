@@ -1,0 +1,11 @@
+main {
+  background: rgb(130, 238, 134);
+}
+
+.tab {
+  display: none;
+}
+
+.celular {
+  display: block;
+}
