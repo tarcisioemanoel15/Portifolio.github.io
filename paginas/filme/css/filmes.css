@@ -102,5 +102,42 @@ height: 100vh;
     .fundo img{
         height: 60vh;
     }
+    .btnMobile{
+        position: absolute;
+        left: 80%;
+    }
+
+     span{
+        position: absolute;
+        text-align: center;
+        width: 20px;
+        height: 2px;
+        bottom: 0;
+        
+
+        background-color: white;
+    }
+
+    .btnMobile span::after{
+        position: absolute;
+        text-align: center;
+
+        width: 20px;
+        height: 2px;
+        background-color: rgb(211, 23, 23);
+        content: '';
+        top: 5px;
+
+    }
+    .btnMobile span::before{
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background-color: rgb(14, 180, 83);
+        margin-bottom: -10px;
+
+        content: '';
+    }
     
+   
 }
