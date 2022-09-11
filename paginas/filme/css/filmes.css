@@ -1,58 +1,156 @@
-body{
-    margin: 0;
-    padding: 0;
+/* menu */
+body,
+ul {
+    margin: 0px;
+    padding: 0px;
 }
 
-a{
+a {
+    color: rgb(254, 252, 252);
     text-decoration: none;
-    color: aliceblue;
+    font-family: sans-serif;
 }
-li{
-    list-style: none;
-    padding-right: 15px;
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-nav ul{
-    display: flex;
+
+#logo h1 {
+    font-size: 25px;
 }
-header nav{
-    display: flex;
-    justify-content: space-between;
+
+/*
+ #logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 20px;
+    margin-top: 5px;
 }
-header{  
-    background-color: rgba(44, 43, 43, 0.562);
-    width: 100%;
-    height: 10%;
+ */
+
+#header {
     position: fixed;
-    top: 0;
-}
-
-nav{
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.681);
+}
 
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
 }
-nav .logo{
-    margin-left: 10px;
+
+#menu a {
+    display: block;
+    padding: 0.5rem;
 }
-.btnMobile{
+
+#btn-mobile {
+    color: white;
     display: none;
 }
 
-
-@media screen and (max-width: 480px){
-    nav ul{
-        display: none;
-    }
-    
-
-    .btnMobile{
+@media screen and (max-width: 600px) {
+    #menu {
         display: block;
-        margin-right: 15px;
-        height: 66px;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+
+        color: black;
+
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
         border: none;
         background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+
+    }
+
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
     }
 }
-    
+
+
+section .box1,
+.box2 {
+    top: 30%;
+    position: absolute;
+    width: 45%;
+    height: 120px;
+    background-color: rgba(247, 249, 250, 0.274);
+    border-radius: 15px;
+
+}
+
+.box1 {
+    left: 5%;
+}
+
+
+.box2 {
+    right: 0;
+
+}
 
 
 
@@ -65,25 +163,28 @@ nav .logo{
 
 
 
-main{
+
+
+
+
+
+main {
     background-color: black;
     color: white;
-    
-    /* margin-top: 66px; */
     text-align: center;
+    width: 100vw;
 }
 
-main h1{
+main h1 {
     margin: 0;
-    /* padding-top: 100px; */
 }
 
-.fundo{
-width: 100vw;
-height: 100vh;
+.fundo {
+    width: 100vw;
+    height: 100vh;
 }
 
-.fundo img{
+.fundo img {
     width: 100vw;
     height: 85vh;
 
@@ -91,53 +192,9 @@ height: 100vh;
     object-position: top center;
 }
 
-/* .fundo .box1, .fundo .box2 {
-    width: 500px;
-    height: 400px;
-    border: solid 5px white;
-    margin-bottom: 10px;
-} */
-
 @media screen and (max-width: 540px) {
-    .fundo img{
+    .fundo img {
         height: 60vh;
     }
-    .btnMobile{
-        position: absolute;
-        left: 80%;
-    }
 
-     span{
-        position: absolute;
-        text-align: center;
-        width: 20px;
-        height: 2px;
-        bottom: 0;
-        
-
-        background-color: white;
-    }
-
-    .btnMobile span::after{
-        position: absolute;
-        text-align: center;
-
-        width: 20px;
-        height: 2px;
-        background-color: rgb(211, 23, 23);
-        content: '';
-        top: 5px;
-
-    }
-    .btnMobile span::before{
-        display: inline-block;
-        width: 20px;
-        height: 2px;
-        background-color: rgb(14, 180, 83);
-        margin-bottom: -10px;
-
-        content: '';
-    }
-    
-   
 }
