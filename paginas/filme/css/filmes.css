@@ -130,7 +130,9 @@ a {
     }
 }
 
+/* Fim do menu */
 
+/* Caixas dentro do menu */
 section .box1,
 .box2 {
     top: 30%;
@@ -152,7 +154,7 @@ section .box1,
 
 }
 
-
+/* fim caixas dentro do menu */
 
 
 
