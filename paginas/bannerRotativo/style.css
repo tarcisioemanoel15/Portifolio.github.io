@@ -27,6 +27,7 @@ display: flex;
 
 .slide{
   width: 25%;
+  transition: 2s;
   position: relative;
 }
 
@@ -37,7 +38,7 @@ display: flex;
 .manual-navigation{
   position: absolute;
   width: 800px;
-  margin-top: -40px;
+  margin-top: 360px;
   display: flex;
   justify-content: center;
 }
@@ -47,7 +48,7 @@ display: flex;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
-  transform: 1s;
+  transition: 1s;
 }
 .manual-btn:not(:last-child){
   margin-right: 40px;
@@ -73,8 +74,8 @@ display: flex;
 #radio4:checked ~ .first{
   margin-left:  -75%;
 }
-/* 
-*/
+
+
 .navigation-auto div{
   border: 2px solid blue;
   padding: 5px;
@@ -92,23 +93,25 @@ display: flex;
 }
 
 .navigation-auto div:not(:last-child){
-
   margin-right: 40px;
 }
 
 
-.navigation-auto ~ div:not(:last-child){
+
+
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
   margin-right: rgb(255, 255, 255);
 }
 
-.navigation-auto ~ div:not(:last-child){
-  margin-right: rgb(9, 161, 54);
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  margin-right: rgb(255, 255, 255);
 }
 
-.navigation-auto ~ div:not(:last-child){
-  margin-right: #fff;
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  margin-right: rgb(255, 255, 255);
 }
 
-.navigation-auto ~ div:not(:last-child){
-  margin-right: #fff;
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  margin-right: rgb(255, 255, 255);
 }
