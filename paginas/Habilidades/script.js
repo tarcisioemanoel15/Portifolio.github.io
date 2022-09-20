@@ -6,17 +6,32 @@ fetch('./fotos.json')
 
 
 function inicia(jsom){
-    console.log(jsom);
 
     const imgs = document.querySelector('.container');
 
     jsom.forEach(element => {
-        imgs.innerHTML += `
-        <img src='${element.url}'>
-        
-        `;
+        if(element.title === undefined){
+            
+        }
+
+        else{
+            imgs.innerHTML += `
+
+            <div class="items"> 
+            <h1 class="h1Element">${element.title}</h1>
+            <img class="imgElement" src='${element.url}'>
+            <p class="ParagrafoElement">${element.paragrafo}</p>            
+            </div>
+            
+            `;
+        }
     });
 
 
 
 }
+
+alert(`
+Ainda esta em desenvolvimento,
+Obrigado poe visitar
+`);

@@ -1,3 +1,58 @@
 body{
-    background-color: brown;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.items{
+    background-color: rgb(92, 87, 87);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+
+    transition: transform 100ms ease-in-out;
+}
+
+.items:hover{
+    transform: scale(1.05);
+}
+
+
+.h1Element{
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 10px;
+}
+.imgElement{
+    width: 150px;
+}
+.ParagrafoElement{
+    width: 200px;
+    color: white;
+    padding: 30px;
+    margin: auto;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: transparent;
+    border: solid 2px rgba(43, 41, 41, 0.473);
+}
+.button a{
+    text-decoration: none;
+}
+.button:hover{
+background-color: red;
+box-shadow: 0px 0px 10px red;
 }
