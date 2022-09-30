@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "title": "BootStrap",
+        "url": "../../components/images/img/habilidades/bootstrap.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+    },
+    {
+        "id": 2,
+        "title": " ",
+        "url": "../../components/images/img/habilidades/css.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+        
+    },
+
+    {
+        "id": 3,
+        "title": "git",
+        "url": "../../components/images/img/habilidades/git.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+
+    },
+    {
+        "id": 4,
+        "title": "",
+        "url": "../../components/images/img/habilidades/html.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+
+    },
+    {
+        "id": 5,
+        
+        "title": "JavaScript",
+        "url": "../../components/images/img/habilidades/js.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+
+    },
+    {
+        "id": 6,
+        "title": "Node",
+        "url": "../../components/images/img/habilidades/node.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+    },
+        
+    {
+        "id": 7,
+        "title": "PHP",
+        "url": "../../components/images/img/habilidades/php.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+    },
+
+    {
+        "id": 8,
+        "title": "MySql",
+        "url": "../../components/images/img/habilidades/mySQL.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+
+    },
+    {
+        "id": 9,
+        "title": "React",
+        "url": "../../components/images/img/habilidades/react.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+    },
+
+    {
+        "id": 10,
+        "title":"Tipe Script",
+        "url": "../../components/images/img/habilidades/tps.png",
+        "paragrafo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias delectus, nam illo ab numquam quibusdam. Est saepe similique provid"
+    }
+
+]
